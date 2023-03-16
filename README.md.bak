@@ -6,4 +6,4 @@ An extremely basic todo-list app written in Kotlin only for learning purposes
   
 - Reading and writing data to memory  
 - Using Alert Dialog  
-- Using Customized Array Adapter and ListView  
+- Using Array Adapter and ListView  

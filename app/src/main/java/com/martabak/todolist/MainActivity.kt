@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         addButton = findViewById(R.id.button)
         listView = findViewById(R.id.listView)
         itemList = fileHelper.readData(this)
-
-        var arrayAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, android.R.id.text1, itemList)
+        //notice the custom adapter!!! :)))
+        var arrayAdapter = CustomListView(this, itemList)
 
         listView.adapter = arrayAdapter
 
